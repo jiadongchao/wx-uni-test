@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/other/other",
+    "pages/other/other-one/other-one",
+    "pages/other/map/map",
+    "pages/other/navigate/navigate"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/icon-index-def.png",
+        "selectedIconPath": "static/img/icon-index-ac.png"
+      },
+      {
+        "pagePath": "pages/other/other",
+        "text": "其他",
+        "iconPath": "static/img/icon-other-def.png",
+        "selectedIconPath": "static/img/icon-other-act.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "演示定位能力"
+    }
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx0548fcc6a08f6314"
+  ],
+  "usingComponents": {}
+}
